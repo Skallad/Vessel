@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio Project 1 </h1>
 
-[View the live project here.](https://skallad.github.io/vessel/index.html);
+[View the live project here.](https://skallad.github.io/vessel/index.html)
 
 
 I got the idea for this project because I both draw and paint. I wanted to share art and create a possibility for other people to share their artwork as well. 
@@ -32,10 +32,13 @@ I got the idea for this project because I both draw and paint. I wanted to share
 
     -   #### Colour Scheme
         -   The colors I used in the project are in hex: 
-            - #889682
+            - #858f81
+            - #64705f
             - #fff
+            - #000
+            
     -   #### Typography
-        -   The font for the logo is Vidaloka with a fallback of serif and the "<h2>" Elements have the font Abel, fallback font is sans-serif.
+        -   The font for the logo is Vidaloka with a fallback of serif and the <h2> Elements have the font Abel, fallback font is sans-serif.
     -  
 
 
