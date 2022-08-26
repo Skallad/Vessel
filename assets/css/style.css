@@ -8,20 +8,31 @@
 
 body{
     font-family: Abel, sans-serif;
-}
-
-header h1 {
-    margin-left: 10px;
-    font-family: Vidaloka, serif;
     font-weight: 300;
-    font-size: 5.5rem;
+    color: #242424;
 }
 
-header ul {
+
+
+h1 {
+    font-family: Vidaloka, serif;
+    color: #444d40;
+}
+
+h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #444d40;
 }
 
-#vessel-logo {
-    max-width: 50px;
+#logo{
+    float: left;
+    font-size: 300%;
+    letter-spacing: 2px;
+    margin: 2%;
 }
+
+#vessel-logo{
+    float: left;
+}
+
