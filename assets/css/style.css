@@ -36,6 +36,7 @@ h2 {
     color: inherit;
     margin-bottom: 150px;
 }
+
 .amphora {
     margin-left: 15px;
     margin-top: 10px;
@@ -52,19 +53,21 @@ h2 {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-#logo, .navigation{
+
+#logo,
+.navigation {
     line-height: 80px;
-} 
+}
 
 
 /* Navigation links */
 
-.navigation{
-    color:#64705f; 
+.navigation {
+    color: #64705f;
     font-size: 150%;
     letter-spacing: 3px;
     margin-right: 20px;
-    margin-top:20px;
+    margin-top: 20px;
     color: inherit;
     float: right;
 }
@@ -75,7 +78,6 @@ h2 {
     list-style-type: none;
     padding: 20px;
     font-size: 30px
- 
 }
 
 .navigation a {
@@ -91,18 +93,20 @@ h2 {
 
 .footer {
     height: 160px;
-    background-color:#64705f;
+    background-color: #64705f;
     margin-top: 50px;
 
 }
+
 .social-media {
     list-style-type: none;
     text-align: center;
 
 }
+
 .social-media i {
     margin: 10%;
-    color:white;
+    color: white;
     font-size: 350%;
     padding: 5%;
     margin-top: 20px;
@@ -114,12 +118,12 @@ h2 {
 
 }
 
-.copyright{
-margin-top: 10px;
-color: white;
-float: right;
-margin-right: 60px;
-margin-bottom: 10px;
+.copyright {
+    margin-top: 10px;
+    color: white;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 10px;
 }
 
 /* Home page text */
@@ -132,7 +136,7 @@ margin-bottom: 10px;
     width: 50%;
     clear: both;
     margin-top: 50px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -144,7 +148,7 @@ margin-bottom: 10px;
 
 /* Images on home page */
 
-.home-images{
+.home-images {
     clear: both;
     line-height: 10px;
     column-count: 2;
@@ -153,10 +157,236 @@ margin-bottom: 10px;
     width: 80%;
     background-repeat: no-repeat;
 }
+
 .home-images>img {
     width: 100%;
     padding: 20px;
 }
 
 
+/* Art page */
 
+.art-images {
+    clear: both;
+    line-height: 10px;
+    column-count: 2;
+    margin-top: 75px;
+    margin: 0 auto;
+    width: 80%;
+    background-repeat: no-repeat;
+}
+
+.art-images>img {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Sign up form and submit page */
+
+.submit-page {
+    text-align: center;
+    font-family: Abel, sans-serif;
+    height: 850px;
+    width: 50%;
+    padding: 20px;
+    color: white;
+    background-color: #64705f;
+    margin: 0 auto;
+    border-color: gray;
+    border: 5px solid;
+    margin-top: 300px;
+}
+
+.submit-head {
+    font-size: 60px;
+    color: white;
+}
+
+.submit-page>p {
+    font-size: 25px;
+}
+
+.name {
+
+    font-size: 17px;
+    border-radius: 5px;
+    border: 5px solid gray;
+    box-sizing: border-box;
+    line-height: 25px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    width: 50%;
+
+}
+
+.name-label {
+    font-size: 25px;
+}
+
+.name:focus {
+    border: 7px solid #64705f;
+}
+
+.email {
+    font-size: 17px;
+    border-radius: 5px;
+    border: 5px solid gray;
+    box-sizing: border-box;
+    line-height: 25px;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 50%;
+}
+
+.email-label {
+    font-size: 25px;
+}
+
+.email:focus {
+    border: 5px solid #64705f;
+}
+
+
+.comments {
+
+    font-size: 15px;
+    border-radius: 5px;
+    border: 5px solid gray;
+    box-sizing: border-box;
+    line-height: 25px;
+    background-color: white;
+    padding: 20px;
+    width: 75%;
+    margin-top: 42px;
+}
+
+.comment-label {
+    font-size: 25px;
+
+
+}
+
+.comments:focus {
+    border: 5px solid #64705f;
+}
+
+[type="submit"] {
+    width: 18%;
+    background-color: white;
+    border-radius: 7px;
+    border: 5px solid black;
+    cursor: pointer;
+    color: #64705f;
+    font-size: 32px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+
+/* media queries */
+
+/* for larger sized screens from 1400px wide and less */
+
+@media screen and (max-width: 1400px) {
+    .art-images {
+        column-count: 2;
+    }
+}
+
+
+/* for medium sized screens from 950px wide and less */
+@media screen and (max-width: 950px) {
+    .art-images {
+        column-count: 2;
+    }
+}
+
+/* for smaller screen sizes from 500px wide and less */
+@media screen and (max-width: 500px) {
+    #images {
+        column-count: 1;
+    }
+}
+
+/* media queries for logos, headings, comment form and navigation */
+
+/* for medium sized screens from 800px wide and less */
+
+@media screen and (max-width: 800px) {
+    #logo {
+        font-size: 120%;
+        margin-bottom: 20px;
+    }
+
+    .navigation li {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .home-text {
+        font-size: 15px;
+        width: 75%;
+        letter-spacing: 1px;
+        margin-top: 2px;
+        line-height: 35px;
+    }
+
+    .social-media i {
+        letter-spacing: 17px;
+        font-size: 200%
+    }
+    .submit-page{
+        width: 90%;
+        height: 750px;
+    }
+    .submit-head{
+        font-size: 25px;
+    }
+    .submit-page>p{
+        font-size: 18px;
+    }
+    .name{
+        width: 45%;
+        font-size: 13px;
+        line-height: 12px;
+        padding: 12px;
+ 
+    }
+    .name-label{
+        font-size: 17;
+    }
+    .email
+    {
+        width: 55%;
+        font-size: 13px;
+        line-height: 12px;
+        padding: 12px;
+    }
+
+
+    .email-label{
+        font-size: 14;
+    }
+    
+    .comment-label{
+        font-size: 20;
+    }
+
+    .comments{
+        width: 90%;
+        padding: 12px;
+    }
+
+    [type="submit"]{
+        font-size: 15px;
+        width: 30%;
+    }
+
+}
+    

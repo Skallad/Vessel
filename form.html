@@ -1,85 +1,111 @@
-<<!DOCTYPE html>
-<html lang="en">
+.<!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website for people to publish their artwork and browse other artists' creations.">
-    <meta name="keywords"
-        content="publish art, art, artists, artwork, see art, show your art, share art online, share your art">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Vessel</title>
-</head>
-
-<body>
-
-    <header>
-        <h1>
-            <a href="index.html" id="logo">Vessel <i class="fa-solid fa-palette"></i></a>
-            
-        </h1>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Website for people to publish their artwork and browse other artists' creations.">
+            <meta name="keywords"
+                content="publish art, art, artists, artwork, see art, show your art, share art online, share your art">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <title>Vessel</title>
+        </head>
+        
+        <body>
+        
+            <header>
+                <h1>
+                    <a href="index.html" id="logo">Vessel <i class="fa-solid fa-palette"></i></a>
+        
+                </h1>
+        
+        
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="form.html">Share your art</a>
+                        </li>
+        
+                        <li>
+                            <a href="art.html">Art</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+        
+                    </ul>
+                </nav>
+        
+            </header>
         
 
-        <nav class="navigation">
-            <ul class="nav-list">
-                <li>
-                    <a href="form.html" class="active">Share your art!</a>
-                </li>
-              
-                <li>
-                    <a href="art.html">Art</a>
-                </li>
-                <li>
-                    <a href="index.html" >Home</a>
-                </li>
 
+        <section>
+            <div class="submit-page">
+                <h2 class="submit-head"> Sign up & get in touch with us!</h2>
+                <p>You can send in your own art, drawings, poems and comments to motivate and inspire others to share their own art.</p>
+                
+                <form>
+                    <div>
+                        <label for="name" class="name-label">Name:</label>
+                        <input type="text" class="name" name="name"  placeholder="Full Name" required>
+                        <br>
+                        <label for="email" class="email-label">Email adress:</label>
+                        <input type="text" name="email" class="email" placeholder="Email adress" required>
+                        <br>
+                        <label for="comments" class="comment-label">Comments and feedbacks <i class="fa-solid fa-arrow-down"></i></label>
+                        <br>
+                        <textarea name="textarea" class="comments" placeholder="Comments and quote suggestions" rows="10"
+                            cols="30" required></textarea>
+                            <br>
+                        <button type="submit">SUBMIT</button>
+        
+        
+                    </div>
+        
+        
+        
+        
+        
+                </form>
+        
+
+        </section>
+        
+
+        <footer class="footer">
+            <ul class="social-media">
+
+                <li>
+                    <a href="https://www.linkedin.com/" rel="noopener" target="_blank"
+                        aria-label="Visit our linkedin page (opens in a new tab)"><i class="fab fa-linkedin icons"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" rel="noopener" target="_blank"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fab fa-instagram icons"></i></a>
+                </li>
+    
+    
+    
+                <li>
+                    <a href="https://www.youtube.com/" rel="noopener" target="_blank"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube icons"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" rel="noopener" target="_blank"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook icons"></i></a>
+                </li>
+    
             </ul>
-        </nav>
 
-    </header>
-
-    
-
-    <section>
-
-        
-    </section>
-    <section>
-    
-    </section>
-
-    <footer class="footer">
-        <ul class="social-media">
-
-            <li>
-                <a href="https://www.instagram.com/" rel="noopener" target="_blank"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fab fa-instagram icons"></i></a>
-            </li>
-
-            <li>
-                <a href="https://www.facebook.com/" rel="noopener" target="_blank"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook icons"></i></a>
-            </li>
-
-            <li>
-                <a href="https://www.youtube.com/" rel="noopener" target="_blank"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube icons"></i></a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/" rel="noopener" target="_blank"
-                    aria-label="Visit our linkedin page (opens in a new tab)"><i class="fab fa-linkedin icons"></i></a>
-            </li>
-        </ul>
-
-        <p class="copyright">Vessel by Elena Gramatikofski <i class="fas fa-copyright"></i> 2022</p>
+            <p class="copyright">Vessel by Elena Gramatikofski <i class="fas fa-copyright"></i> 2022</p>
 
 
-    </footer>
-    <!-- Font awesome Icons-->
-    <script src="https://kit.fontawesome.com/6dfb9316b8.js" crossorigin="anonymous"></script>
-</body>
+        </footer>
+        <!-- Font awesome Icons-->
+        <script src="https://kit.fontawesome.com/6dfb9316b8.js" crossorigin="anonymous"></script>
+    </body>
 
-</html>
+    </html>
