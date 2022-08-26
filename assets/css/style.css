@@ -359,7 +359,7 @@ h2 {
  
     }
     .name-label{
-        font-size: 17;
+        font-size: 17px;
     }
     .email
     {
@@ -371,11 +371,11 @@ h2 {
 
 
     .email-label{
-        font-size: 14;
+        font-size: 14px;
     }
     
     .comment-label{
-        font-size: 20;
+        font-size: 20px;
     }
 
     .comments{
