@@ -6,7 +6,9 @@
     border: none;
 }
 
-
+body{
+    font-family: Abel, sans-serif;
+}
 
 header h1 {
     margin-left: 10px;
@@ -18,10 +20,6 @@ header h1 {
 header ul {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
-}
-
-section {
-    font-family: Abel, sans-serif;
 }
 
 #vessel-logo {
