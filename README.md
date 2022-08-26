@@ -135,9 +135,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
--   The images displayed on the site are all from Pinterest.
--   The amphora with the text was created by me in Procreate to further emphasise my association of 'vessel' with the ancient Greek amphora.
--   
+-   The images displayed on the site are partly from me; image1.JPG, image2.JPG as well as image3.JPG and the remaining images downloaded from Pinterest.  
 
 ### Acknowledgements
 
