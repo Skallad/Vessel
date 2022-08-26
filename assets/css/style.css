@@ -7,11 +7,10 @@
     font-family: Vidaloka;
 }
 
-header h1{
-    text-align: center;
+#vessel-logo{
+    max-width: 50px;
 }
 
-header img{
-    max-width: 50px;
-    min-width: none;
+header h1{
+    margin-left: 10px;
 }
