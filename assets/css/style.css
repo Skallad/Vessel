@@ -6,33 +6,66 @@
     border: none;
 }
 
-body{
+body {
     font-family: Abel, sans-serif;
     font-weight: 300;
-    color: #242424;
+    color: #858f81;
 }
 
-
+/*Title/logo, vessel-logo and headings*/
 
 h1 {
     font-family: Vidaloka, serif;
-    color: #444d40;
+    color: #64705f;
 }
 
-h2{
+h2 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    color: #444d40;
+    color: #64705f;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 300%;
     letter-spacing: 2px;
-    margin: 2%;
 }
 
-#vessel-logo{
+#vessel-logo {
     float: left;
 }
 
+/* Navigation links */
+
+#nav-menu,
+#logo,
+#vessel-logo {
+    line-height: 75px;
+}
+
+#nav-menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    color: #64705f;
+    border-bottom: 2px solid #64705f;
+}
+
+.active{
+    background-color: #7e997365;
+    padding: 0 5px;
+    color: #858f81;
+}
