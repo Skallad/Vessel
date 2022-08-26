@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@300&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Vidaloka&display=swap');
 
 * {
     padding: 0%;
@@ -20,52 +20,143 @@ h1 {
 }
 
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
+    font-weight: 300;
     color: #64705f;
+    letter-spacing: 4px;
 }
 
 #logo {
     float: left;
-    font-size: 300%;
-    letter-spacing: 2px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    margin-left: 70px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 150px;
+}
+.amphora {
+    margin-left: 15px;
+    margin-top: 10px;
+    max-width: 50px;
+    opacity: 0.5;
 }
 
-#vessel-logo {
-    float: left;
+
+/*Logo animation*/
+
+#logo:hover {
+    opacity: 0.5;
+    animation-name: see-through;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+#logo, .navigation{
+    line-height: 80px;
+} 
+
 
 /* Navigation links */
 
-#nav-menu,
-#logo,
-#vessel-logo {
-    line-height: 75px;
-}
-
-#nav-menu {
+.navigation{
+    color:#64705f; 
     font-size: 150%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    margin-top:20px;
+    color: inherit;
+    float: right;
 }
 
-#nav-menu li {
+.navigation li {
+    font-family: Abel, sans-serif;
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px
+ 
 }
 
-#nav-menu a {
+.navigation a {
     text-decoration: none;
     color: inherit;
 }
 
-#nav-menu a:hover {
-    color: #64705f;
-    border-bottom: 2px solid #64705f;
+.active {
+    border-bottom: 3px solid #64705f;
 }
 
-.active{
-    background-color: #7e997365;
-    padding: 0 5px;
-    color: #858f81;
+/*Footer and copyright */
+
+.footer {
+    height: 160px;
+    background-color:#64705f;
+    margin-top: 50px;
+
 }
+.social-media {
+    list-style-type: none;
+    text-align: center;
+
+}
+.social-media i {
+    margin: 10%;
+    color:white;
+    font-size: 350%;
+    padding: 5%;
+    margin-top: 20px;
+    letter-spacing: 75px;
+}
+
+.social-media>li {
+    display: inline-block;
+
+}
+
+.copyright{
+margin-top: 10px;
+color: white;
+float: right;
+margin-right: 60px;
+margin-bottom: 10px;
+}
+
+/* Home page text */
+
+.home-text {
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: 50%;
+    clear: both;
+    margin-top: 50px;
+    margin:0 auto;
+    padding: 10px;
+}
+
+.home-text a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 3px solid #64705f;
+}
+
+/* Images on home page */
+
+.home-images{
+    clear: both;
+    line-height: 10px;
+    column-count: 2;
+    margin-top: 75px;
+    margin: 0 auto;
+    width: 80%;
+    background-repeat: no-repeat;
+}
+.home-images>img {
+    width: 100%;
+    padding: 20px;
+}
+
+
+
