@@ -1,16 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@300&family=Vidaloka&display=swap');
 
 * {
-    padding:0%;
+    padding: 0%;
     margin: 0;
     border: none;
-    font-family: Vidaloka;
 }
 
-#vessel-logo{
-    max-width: 50px;
-}
 
-header h1{
+
+header h1 {
     margin-left: 10px;
+    font-family: Vidaloka, serif;
+    font-weight: 300;
+    font-size: 5.5rem;
+}
+
+header ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+section {
+    font-family: Abel, sans-serif;
+}
+
+#vessel-logo {
+    max-width: 50px;
 }
